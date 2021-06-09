@@ -1,0 +1,304 @@
+/* zakladna farba #1b69bf*/
+
+body {
+  font-family: Lora, sans-serif;
+  line-height: 1.5em;
+  background-color: white;
+  max-width: 1100px;
+  color: #05171f;
+}
+.strata {
+  color: #fb667a;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+}
+
+p {
+  margin-top: 1.5rem;
+  margin-right: 2rem;
+  text-align: justify;
+  padding: 1rem;
+  margin-left: 2rem;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1em;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.infografika1 {
+  display: flex;
+  flex-direction: row;
+  max-width: 80%;
+  margin: auto;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+
+.kellner {
+  padding: 1em;
+  border-radius: 1em;
+  box-shadow: 1px 2px 2px #91abc1;
+  margin: 0.5em;
+}
+.bartonicek {
+  padding: 1em;
+  border-radius: 1em;
+  box-shadow: 1px 2px 2px #91abc1;
+  margin: 0.5em;
+}
+
+.foto {
+  border-radius: 50%;
+  max-width: 15rem;
+  border-color: #1b69bf;
+  border-style: solid;
+  border-width: 0.3rem;
+}
+.foto2 {
+  border-radius: 50%;
+  max-width: 10rem;
+  border-color: #1b69bf;
+  border-style: solid;
+  border-width: 0.3rem;
+  margin-top: 4em;
+}
+.foto3 {
+  margin-top: 4em;
+  border-radius: 50%;
+  max-width: 10rem;
+  border-color: #1b69bf;
+  border-style: solid;
+  border-width: 0.3rem;
+}
+
+h2 {
+  font-size: 2em;
+  text-align: center;
+  display: block;
+  line-height: 1em;
+  padding-bottom: 2em;
+  color: #fb667a;
+}
+
+.figure {
+  margin: 0;
+}
+
+/* /* graf*/
+.container {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  border-radius: 1em;
+  margin-top: 0;
+  margin-bottom: 4em;
+  box-shadow: 1px 2px 2px #91abc1;
+}
+.head {
+  background-color: #91abc1;
+  height: 3.5em;
+  border-radius: 1em 1em 0 0;
+  margin: 0;
+}
+.headTitle {
+  font-weight: 800;
+  margin: 1.2em;
+}
+
+.info2 {
+  display: flex;
+}
+.graf {
+  flex-basis: 40%;
+}
+
+h3 {
+  font-weight: 100;
+  margin: 0.8rem;
+  font-size: 1em;
+}
+
+.graf2 {
+  flex-basis: 60%;
+}
+
+.stlp1 {
+  background-color: #fb667a;
+  width: 17%;
+  height: 1.3rem;
+  margin: 1rem;
+}
+.stlp2 {
+  background-color: #fb667a;
+  width: 10%;
+  height: 1.3em;
+  margin: 1rem;
+}
+.stlp3 {
+  background-color: #fb667a;
+  width: 4%;
+  height: 1.3em;
+  margin: 1rem;
+}
+.stlp4 {
+  background-color: #fb667a;
+  width: 20%;
+  height: 1.3rem;
+  margin: 1rem;
+}
+.stlp5 {
+  background-color: #fb667a;
+  width: 29%;
+  height: 1.3rem;
+  margin: 1rem;
+}
+
+/*tabulka*/
+
+.table th h1 {
+  font-weight: bold;
+  font-size: 1em;
+  text-align: left;
+  color: #05171f;
+}
+
+.table td {
+  font-weight: normal;
+  font-size: 1em;
+  -webkit-box-shadow: 0 2px 2px -2px #0e1119;
+  -moz-box-shadow: 0 2px 2px -2px #0e1119;
+  box-shadow: 0 2px 2px -2px #0e1119;
+}
+
+.table {
+  text-align: left;
+  overflow: hidden;
+  width: 80%;
+  margin: auto;
+  border-radius: 1rem;
+  display: table;
+  padding: 0 0 8em 0;
+  margin-bottom: 0;
+}
+
+.table td,
+.table th {
+  padding-bottom: 2%;
+  padding-top: 2%;
+  padding-left: 2%;
+}
+
+/* Background-color of the odd rows */
+.table tr:nth-child(odd) {
+  background-color: #fff;
+  color: #05171f;
+}
+
+/* Background-color of the even rows */
+.table tr:nth-child(even) {
+  background-color: #fff;
+  color: #05171f;
+}
+
+.table th {
+  background-color: #91abc1;
+  color: #05171f;
+}
+
+.table tr:hover {
+  background-color: #91abc1;
+}
+
+.table td:hover {
+  background-color: #91abc1;
+
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+  transition-property: all;
+  transition-timing-function: line;
+}
+
+.stlp5:hover {
+  background-color: #91abc1;
+
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+  transition-property: all;
+  transition-timing-function: line;
+}
+.stlp4:hover {
+  background-color: #91abc1;
+
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+  transition-property: all;
+  transition-timing-function: line;
+}
+.stlp3:hover {
+  background-color: #91abc1;
+
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+  transition-property: all;
+  transition-timing-function: line;
+}
+.stlp2:hover {
+  background-color: #91abc1;
+
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+  transition-property: all;
+  transition-timing-function: line;
+}
+.stlp1:hover {
+  background-color: #91abc1;
+
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+  transition-property: all;
+  transition-timing-function: line;
+}
+
+.vyrocniSprava {
+  font-style: italic;
+}
+
+@media (max-width: 909px) {
+  .stlp1,
+  .stlp2,
+  .stlp3,
+  .stlp4,
+  .stlp5 {
+    height: 1.7em;
+    margin: 0.8em;
+  }
+}
+@media (max-width: 810px) {
+  .stlp1,
+  .stlp2,
+  .stlp3,
+  .stlp4,
+  .stlp5 {
+    height: 2em;
+    margin: 0.5em;
+  }
+}
+
+@media (max-width: 800px) {
+  .table td:nth-child(4),
+  .table th:nth-child(4) {
+    display: none;
+  }
+  .infografika1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
